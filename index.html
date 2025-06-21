@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator" id="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button class="button" data-action="clear">C</button>
+            <button class="button" data-action="delete">DEL</button>
+            <button class="button" data-action="calculateSquareRoot">√</button>
+            <button class="button" data-action="calculatePower">^</button>
+            <button class="button" data-action="append" data-value="7">7</button>
+            <button class="button" data-action="append" data-value="8">8</button>
+            <button class="button" data-action="append" data-value="9">9</button>
+            <button class="button" data-action="append" data-value="/">/</button>
+            <button class="button" data-action="append" data-value="4">4</button>
+            <button class="button" data-action="append" data-value="5">5</button>
+            <button class="button" data-action="append" data-value="6">6</button>
+            <button class="button" data-action="append" data-value="*">*</button>
+            <button class="button" data-action="append" data-value="1">1</button>
+            <button class="button" data-action="append" data-value="2">2</button>
+            <button class="button" data-action="append" data-value="3">3</button>
+            <button class="button" data-action="append" data-value="-">-</button>
+            <button class="button" data-action="append" data-value="0">0</button>
+            <button class="button" data-action="append" data-value=".">.</button>
+            <button class="button" data-action="calculateResult">=</button>
+            <button class="button" data-action="append" data-value="+">+</button>
+            <button class="button" data-action="calculateSin">sin</button>
+            <button class="button" data-action="calculateCos">cos</button>
+            <button class="button" data-action="calculateTan">tan</button>
+            <button class="button" data-action="calculateLog">log</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
